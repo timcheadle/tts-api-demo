@@ -43,6 +43,8 @@ gem "pg"
 gem "bootstrap-sass"
 gem "font-awesome-sass"
 gem "redcarpet"
+gem 'shopify_api', '~> 3.2.5'
+
 group :development, :test do
   gem "rspec-rails", "~> 2.14.2"
   gem "pry"
