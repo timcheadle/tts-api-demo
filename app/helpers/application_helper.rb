@@ -1,6 +1,6 @@
 module ApplicationHelper
-  def is_active?(action)
-    'active' if params[:controller] == 'welcome' && params[:action] == action
+  def is_active?(controller)
+    'active' if params[:controller] == controller
   end
 
   def markdown(&block)
